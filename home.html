@@ -4,21 +4,27 @@
     <title>First Html Page</title>
     <style>
       body {
+        height: 100vh;
         margin: 20px;
+        display: flex;
+        justify-content: space-between; /*justify-content는 default 값 , 주축방향(왼쪽에서 오른쪽)*/
+        align-items: center; /*align-items 는 수직방향*/
+      }
+      #second {
+        background-color: wheat;
       }
       .btn {
       }
       div {
-        display: inline-block;
-        width: 50px;
-        height: 50px;
+        width: 300px;
+        height: 300px;
         background-color: teal;
       }
     </style>
   </head>
   <body>
     <div></div>
-    <div></div>
+    <div id="second"></div>
     <div></div>
   </body>
 </html>
